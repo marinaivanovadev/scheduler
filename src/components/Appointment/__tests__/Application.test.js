@@ -12,8 +12,4 @@ describe("Appointment", () => {
       expect(getByText("Leopold Silvers")).toBeInTheDocument();
     });
   });
-
-  xit("does something it is supposed to do", () => {});
-
-  test.skip("does something else it is supposed to do", () => {});
-});
+  });
