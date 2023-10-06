@@ -56,7 +56,7 @@ export default function Form(props) {
         />
       </section>
       <section className="appointment__card-right">
-        <section className="appointment__actions">
+        <section className="appointment__actions" data-testid="save-button" >
           <Button danger onClick={cancel}>
             Cancel
           </Button>
